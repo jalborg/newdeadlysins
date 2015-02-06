@@ -376,6 +376,8 @@ p.badword:hover, p.goodword:hover {
 	height: 40px;
 	display: block;
 	width: 50%;
+	margin-top:5px;
+	margin-bottom:5px;
 
 }
 
@@ -384,6 +386,8 @@ p.badword:hover, p.goodword:hover {
 	height: 40px;
 	display: block;
 	width: 50%;
+	margin-top:5px;
+	margin-bottom:5px;
 
 }
 
