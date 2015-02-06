@@ -13,6 +13,7 @@ div.quality {
 .no-flexbox div.quality {
 	display:block;
 	height:50px;
+	
 }
 p.goodword,
 p.badword {

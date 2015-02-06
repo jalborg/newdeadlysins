@@ -298,10 +298,8 @@ a:hover {
 
 
 .quality {
-	height:60px;
 	display: block;
-	margin-left:3%;
-	margin-right:3%;
+	margin:0 3%;
 	font-weight:lighter;
 	font-family: "Open Sans", sans-serif;
 	letter-spacing: 3px;
@@ -310,6 +308,7 @@ a:hover {
 .badword,
 .goodword {
 	display: inline-block;
+	line-height:60px;
 	min-width:200px;
 	margin: 0 auto;
 	font-family: "Open Sans", sans-serif; /* Rikke */
@@ -386,8 +385,8 @@ p.badword:hover, p.goodword:hover {
 	height: 40px;
 	display: block;
 	width: 50%;
-	margin-top:5px;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 
 }
 
