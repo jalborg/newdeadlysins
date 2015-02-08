@@ -12,7 +12,11 @@ div.quality {
 }
 .no-flexbox div.quality {
 	display:block;
-	height:50px;
+	height:60px;
+	margin:0 1%;
+	font-weight:lighter;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: 3px;
 	
 }
 p.goodword,

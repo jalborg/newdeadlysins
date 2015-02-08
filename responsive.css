@@ -1,8 +1,12 @@
-@media screen and (max-width: 635px) {
+@media screen and (max-width: 730px) {
 
 
 
 	.bar {
+		display:none;
+	}
+
+	#div.heaven, #div.hell, p.comparegood, p.compare {
 		display:none;
 	}
 

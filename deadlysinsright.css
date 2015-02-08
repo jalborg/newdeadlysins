@@ -1,5 +1,4 @@
 
-
 body {
 	width:100%;
 	background-color: rgb(255,256,255);
@@ -85,7 +84,7 @@ body {
 	display:none;
 	float:left;
 	position:absolute;
-	margin-left:-40px;
+	margin-left:-37px;
 	color:black;
 	letter-spacing: 1px;
 }
@@ -93,7 +92,7 @@ body {
 	display:none;
 	float:left;
 	position:absolute;
-	margin-left:7px;
+	margin-left:12px;
 	color:black;
 	letter-spacing: 1px;
 }
@@ -108,10 +107,14 @@ div.quality:hover .percentright {
 
 /*Description of the bars. Over/under the goodquality and badquality divs*/
 
-#hell {
+#hell, #heaven {
 	height: 50px;
 	margin-top:5px;
+	margin-left:1%;
+	margin-right:1%;
 }
+
+
 
 .arrowUp {
 	margin: 0 auto;
@@ -184,6 +187,7 @@ div.quality:hover .percentright {
 }
 .compare {
 	color:white;
+	margin-bottom:40px;
 }
 
 .comparegood {
@@ -299,7 +303,8 @@ a:hover {
 
 .quality {
 	display: block;
-	margin:0 3%;
+	height:60px;
+	margin:0 1%;
 	font-weight:lighter;
 	font-family: "Open Sans", sans-serif;
 	letter-spacing: 3px;
@@ -354,7 +359,9 @@ p.badword:hover, p.goodword:hover {
 
 .bar {
 
-	width: 37%;
+	width: 35%;
+	height:60px;
+	vertical-align: bottom;
 }
 
 
@@ -375,8 +382,6 @@ p.badword:hover, p.goodword:hover {
 	height: 40px;
 	display: block;
 	width: 50%;
-	margin-top:5px;
-	margin-bottom:5px;
 
 }
 
@@ -385,8 +390,6 @@ p.badword:hover, p.goodword:hover {
 	height: 40px;
 	display: block;
 	width: 50%;
-	margin-top:10px;
-	margin-bottom:10px;
 
 }
 
@@ -491,4 +494,5 @@ p.badword:hover, p.goodword:hover {
 .showExplanation {
 	opacity:0.7;
 }
+
 
