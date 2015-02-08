@@ -221,9 +221,9 @@ div.others {
 }
 
 .goodwordexplanation, .badwordexplanation {
-	width:30%;
+	width:26%;
 	color:black;
-	margin:0 auto;
+	margin:0 3% 0 3%;
 	border-bottom:white;
 }
 
@@ -233,14 +233,13 @@ div.others {
 
 div.myself {
 	color:white;
-	width:25%;
-	margin-right:3%;
+	width:22%;
 	text-align:left;
 }
 
 div.others {
 	color:white;
-	width:25%;
+	width:22%;
 	text-align:left;
 }
 
@@ -260,7 +259,6 @@ div.others {
 	width:30px;
 	border-radius:50%;
 	display:inline-block;
-	margin-left:3%;
 	margin-right:5px;
 }
 
