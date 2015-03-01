@@ -2,6 +2,14 @@
 
 $(document).ready(function(){ 
 
+
+    jQuery.fn.center = function () {
+    this.css("position","absolute");
+    this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + 
+                                                $(window).scrollTop()) + "px");
+    return this;
+}
+
 //Creating vars for blue overlay and explanation (definition of the word)
 
 var $overlay =$('<div id="overlay"></div>');
@@ -45,7 +53,8 @@ $explanation.html(explanationText);
 $explanation.show();
 $overview.hide();
 //Position the text on the right place
-$explanation.css("margin-top", "550px");
+
+$explanation.center();
 //Show overlay
 $overlay.show();
 });
@@ -59,7 +68,7 @@ $explanation.html(explanationText);
 $explanation.show();
 $overview.hide();
 //Position the text on the right place
-$explanation.css("margin-top", "2350px");
+$explanation.center();
 //Show overlay
 $overlay.show();
 });
