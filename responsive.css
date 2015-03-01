@@ -1,5 +1,4 @@
-@media screen and (max-width: 750px) {
-
+@media screen and (max-width: 765px) {
 
 
 	.bar {
@@ -56,6 +55,10 @@
 
 
 @media screen and (max-width: 1030px) {
+
+	p.badwordexplanation {
+	width:70%;
+}
 	.bar {
 		font-weight:lighter;
 		font-family: "Open Sans", sans-serif;

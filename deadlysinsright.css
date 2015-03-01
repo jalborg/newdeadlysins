@@ -114,8 +114,6 @@ div.quality:hover .percentright {
 	margin-right:1%;
 }
 
-
-
 .arrowUp {
 	margin: 0 auto;
 	display:block;
@@ -233,23 +231,24 @@ div.others {
 
 div.myself {
 	color:white;
-	width:22%;
-	text-align:left;
+	width: 25%;
+	text-align:right;
 }
 
 div.others {
 	color:white;
-	width:22%;
+	width: 25%;
 	text-align:left;
+
 }
 
 .yellowcircle {
 	height:30px;
 	width:30px;
-	border-radius:50%;
 	background-color:#d7c657;
 	display:inline-block;
-	margin-right:5px;
+	margin-left:20px;
+	vertical-align: bottom;
 
 }
 
@@ -257,9 +256,14 @@ div.others {
 	background-color:#66c9b1;
 	height:30px;
 	width:30px;
-	border-radius:50%;
 	display:inline-block;
-	margin-right:5px;
+	margin-right:20px;
+	vertical-align: bottom;
+}
+
+.space {
+	width:248px;
+	display:inline-block;
 }
 
 div#heaven div.myself,
@@ -312,7 +316,7 @@ a:hover {
 .goodword {
 	display: inline-block;
 	line-height:60px;
-	min-width:200px;
+	min-width:240px;
 	margin: 0 auto;
 	font-family: "Open Sans", sans-serif; /* Rikke */
 }
