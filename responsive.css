@@ -1,0 +1,71 @@
+@media screen and (max-width: 765px) {
+
+
+	.bar {
+		display:none;
+	}
+
+	#div.heaven, #div.hell, p.comparegood, p.compare {
+		display:none;
+	}
+
+	#intro {
+		width:95%;
+	}
+	#intro h1 {
+	font-size:1em;
+	text-align:center;
+	}
+
+	#introtext {
+		width:85%;
+	}
+
+	#intro p {
+		font-size:0.4em;
+	}
+
+	#heaven, #hell {
+		display:none;
+	}
+
+	#social img {
+
+	margin-top:5%;
+	}
+
+	#overlay p {
+		font-size:0.7em;
+		padding:0 5%;
+	}
+
+	.arrowUp {
+	margin-bottom: 5%;
+	}
+
+.arrowDown {
+	margin-top: 15%;
+	}
+
+	div.quality:hover .percentleft,
+	div.quality:hover .percentright {
+	display:none;
+}
+}
+
+
+@media screen and (max-width: 1030px) {
+
+	p.badwordexplanation {
+	width:70%;
+}
+	.bar {
+		font-weight:lighter;
+		font-family: "Open Sans", sans-serif;
+		letter-spacing: 3px;
+	}
+	.quality {
+		min-width:176px;
+	}
+}
+

@@ -1,0 +1,509 @@
+
+body {
+	width:100%;
+	background-color: rgb(255,256,255);
+	font-size:1rem;
+	min-height: 2700px;
+	font-family:"Open Sans", sans-serif;
+	font-weight:400;
+	text-align:center;
+	color:white;
+}
+
+
+/*INTRO - title and description of the project. Where the user enters*/
+#intro {
+	min-height:300px;
+	width:70%;
+	margin:0 auto 20px auto;
+	font-size:2.2em;
+	font-weight:400;
+}
+.greatword {
+	height:200px;
+}
+
+/*INTRO - title*/
+#intro h1 {
+	font-size:1.7em;
+	letter-spacing:3px;
+}
+
+#firstline {
+	margin-bottom:0;
+}
+
+#secondline {
+	margin-top:0;
+}
+
+#introtext {
+	width:60%;
+	margin: 20px auto 0;
+}
+/*INTRO - text*/
+#intro p {
+	font-size:1.2rem;
+	font-weight:300;
+	line-height:1.5;
+	letter-spacing:1px;
+}
+
+/*SCROLLUP text*/
+#scrollup {
+	margin-top:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*SCROLLDOWN text*/
+#scrolldown {
+	margin-bottom:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#scrollup,
+#scrolldown {
+	max-width:90%;
+}
+
+/*DIV with the good words*/
+#goodquality {
+	margin-top:100px;
+	margin-bottom:50px;
+}
+
+/*DIV with the bad words*/
+#badquality {
+	margin-bottom: 100px;
+	margin-top:50px;
+}
+
+
+.percentleft {
+	display:none;
+	float:left;
+	position:absolute;
+	margin-left:-30px;
+	color:black;
+	letter-spacing: 0px;
+	line-height:30px;
+	font-size:0.8em;
+}
+.percentright {
+	display:none;
+	float:left;
+	position:absolute;
+	margin-left:12px;
+	color:black;
+	letter-spacing: 0px;
+	line-height:30px;
+	font-size:0.8em;
+}
+
+
+div.quality:hover .percentleft,
+div.quality:hover .percentright {
+	display:inline-block;
+}
+
+
+
+/*Description of the bars. Over/under the goodquality and badquality divs*/
+
+#hell, #heaven {
+	height: 50px;
+	margin-top:5px;
+	margin-left:1%;
+	margin-right:1%;
+}
+
+.arrowUp {
+	margin: 0 auto;
+	display:block;
+	margin-bottom: 5%;
+}
+
+.arrowDown {
+	margin: 0 auto;
+	display:block;
+	margin-top: 5%;
+}
+
+.description {
+	display:none;
+}
+
+/*BLUE OVERLAY that shows up when user clicks on a word*/
+#overlay {
+  background-color:#080C26;
+  opacity:0.9;
+  width:100%;
+  height:3400px;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay p {
+	color:white;
+	font-size:1em;
+	margin: 0 auto;
+	line-height:1.5;
+	padding:0 30%;
+}
+
+#imageoverlay {
+  background-color:#080C26;
+  opacity:1;
+  width:100%;
+  height:3400px;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overview {
+	margin: 0 auto;
+	width:100%;
+	display:none;
+	position:absolute;
+	top:0;
+  	left:0;
+}
+
+.compare, .comparegood {
+	color:white;
+	border-bottom:white;
+	font-weight:300;
+	padding-bottom:3px;
+	text-decoration:underline;
+	letter-spacing:1.5px;
+	font-size:0.9em;
+	cursor: pointer;
+
+}
+.compare {
+	color:white;
+	margin-bottom:40px;
+}
+
+.comparegood {
+	color:black;
+	margin-top:40px;
+}
+
+/*.showgoodbars, .showbadbars {
+	border-bottom:white;
+	font-weight:300;
+	padding-bottom:3px;
+	text-decoration:underline;
+	letter-spacing:1.5px;
+	font-size:0.9em;
+	cursor: pointer;
+
+}*/
+.showgoodbars {
+	color:black;
+}
+
+.goodwordexplanation,
+.badwordexplanation,
+div.myself,
+div.others {
+
+	font-weight:300;
+	letter-spacing: 1.5px;
+	font-size:0.9em;
+	display:inline-block;
+}
+
+.goodwordexplanation, .badwordexplanation {
+	width:26%;
+	color:black;
+	margin:0 3% 0 3%;
+	border-bottom:white;
+}
+
+.badwordexplanation {
+	color:white;
+}
+
+div.myself {
+	color:white;
+	width: 25%;
+	text-align:right;
+}
+
+div.others {
+	color:white;
+	width: 25%;
+	text-align:left;
+
+}
+
+.yellowcircle {
+	height:30px;
+	width:30px;
+	background-color:#d7c657;
+	display:inline-block;
+	margin-left:20px;
+	vertical-align: bottom;
+
+}
+
+.bluecircle {
+	background-color:#66c9b1;
+	height:30px;
+	width:30px;
+	display:inline-block;
+	margin-right:20px;
+	vertical-align: bottom;
+}
+
+.space {
+	width:248px;
+	display:inline-block;
+}
+
+div#heaven div.myself,
+div#heaven div.goodwordexplanation,
+div#heaven div.others   {
+	height: 50px;
+	color:black;
+}
+
+div#heaven .yellowcircle,
+div#heaven .bluecircle {
+	vertical-align: top;
+}
+
+#social img {
+	width:50px;
+	height:50px;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+
+/*FOOTER with our names and credits*/
+footer {
+	text-align:center;
+	color:#D3D3D3;
+	width:60%;
+	margin:0 auto 10px;
+	font-weight:lighter;
+	font-family: "Open Sans", sans-serif;
+	font-size:0.9em;
+}
+/*LINK styling*/
+a {
+	text-decoration:none;
+	color:white;
+}
+
+/*LINK styling - when user hovers over the link*/
+a:hover {
+	text-decoration:none;
+	color:#D3D3D3;
+}
+
+
+.quality {
+	display: block;
+	height:60px;
+	margin:0 1%;
+	font-weight:lighter;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: 3px;
+}
+
+.badword,
+.goodword {
+	display: inline-block;
+	line-height:60px;
+	min-width:240px;
+	margin: 0 auto;
+	font-family: "Open Sans", sans-serif; /* Rikke */
+}
+
+p.badword, p.goodword { 
+	cursor: pointer;
+}
+
+p.badword:hover, p.goodword:hover { 
+	color:#D3D3D3;
+}
+
+.headline{
+	font-weight:bold;
+	font-family: "Open Sans", sans-serif;
+	font-size:2.5em;
+	text-align:center;
+	letter-spacing: 3.5px;
+}
+
+.text{
+	font-weight:lighter;
+	font-family: "Open Sans", sans-serif;
+	font-size:1.2em;
+	text-align:center;
+	letter-spacing: 2px;
+
+}
+
+.number{
+	font-weight:lighter;
+	font-family: "Open Sans", sans-serif;
+	font-size:2.5em;
+	text-align:center;
+	letter-spacing: 3.5px;
+
+}
+
+.goodword {
+	color:#080C27;
+}
+
+.bar {
+
+	width: 33%;
+	height:60px;
+	vertical-align: bottom;
+}
+
+
+
+/*.stroke_down{
+	position: absolute;
+	margin-left: -37px;
+	margin-top: -285px;
+}
+
+#badquality{
+	margin-top: 500px;
+ 
+}*/
+
+.line {
+	border-right: solid 1px white;
+	height: 40px;
+	display: block;
+	width: 50%;
+
+}
+
+.gline {
+	border-right: solid 1px black;
+	height: 40px;
+	display: block;
+	width: 50%;
+
+}
+
+/*.line_down {
+	border-right: solid 11px white;
+	height: 1px;
+	display: block;
+	width: 50%;
+	margin-top: -10px;
+	margin-bottom: -4px;
+	margin-left: -5px;
+}
+
+.line_up {
+	border-right: solid 11px white;
+	height: 1px;
+	display: block;
+	width: 50%;
+	margin-bottom: -10px;
+	margin-left: -5px;
+	
+}
+*/
+
+.line_long {
+ 	border-right: solid 1px white;
+	height: 250px;
+	display: block;
+	width: 50%;
+	margin-top: -12px; /* Rikke */
+	
+
+}
+.gline_long {
+	border-right: solid 1px black;
+	height: 250px;
+	display: block;
+	width: 50%;
+	margin-bottom: -6px; /* Rikke */
+	margin-top:40px;
+}
+
+
+/*Code down here: Not used right now
+
+
+.hideme
+{
+	width:100%;
+	height:70px;
+	background-color:black;
+	margin:0 auto;
+	font-size:20;
+	color:black;
+	display:block;
+	padding: 5px 5px 5px 5px;
+	margin: 100px auto 100px auto;
+    opacity:0;
+}
+
+
+
+
+
+.plus {
+	width:30px;
+	height:30px;
+}
+
+
+.bar_explain {
+	width:400px;
+	height:50px;
+}
+*/
+
+
+
+
+
+/*Not using this. For overlay that fits right on top of image/bar
+
+.quality {
+	position:relative;
+	width:100%;
+}
+
+.quality img .bar  {
+	width:50%;
+	display:inline-block;
+}
+
+.overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+  	height: 100%;
+  	background-color: black;
+  	opacity:0;
+}
+.showExplanation {
+	opacity:0.7;
+}
+
+

@@ -1,0 +1,37 @@
+div#badquality,
+div#goodquality {
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: space-between;
+}
+
+div.quality {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+
+}
+.no-flexbox div.quality {
+	display:block;
+	height:60px;
+	margin:0 1%;
+	font-weight:lighter;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: 3px;
+	
+}
+p.goodword,
+p.badword {
+	-webkit-align-self: center;
+}
+
+.no-flexbox p.goodword {
+	display: inline-block;
+	min-width:200px;
+	margin: 0 auto;
+}
+
+.no-flexbox p.badword {
+	display: inline-block;
+	min-width:200px;
+	margin: 0 auto;
+}
