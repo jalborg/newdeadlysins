@@ -173,10 +173,20 @@ div.quality:hover .percentright {
 	display:none;
 	position:absolute;
 	top:0;
-  	left:0;
+	left:0;
 }
 
-.compare, .comparegood {
+#overview_swedish {
+	margin: 0 auto;
+	width:100%;
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+
+}
+
+.compare, .comparegood, .compareSwedish, .comparegoodSwedish {
 	color:white;
 	border-bottom:white;
 	font-weight:300;
@@ -187,12 +197,12 @@ div.quality:hover .percentright {
 	cursor: pointer;
 
 }
-.compare {
+.compare, .compareSwedish {
 	color:white;
 	margin-bottom:40px;
 }
 
-.comparegood {
+.comparegood, .comparegoodSwedish {
 	color:black;
 	margin-top:40px;
 }

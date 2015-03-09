@@ -21,9 +21,11 @@ $overlay.append($explanation);
 //Add overlay to body
 $("body").append($overlay);
 
-var $overview =$('<img id="overview" src="Overview.jpg">');
+var $overview =$('<img id="overview" src="overview_english.jpg">');
+var $swedishOverview =$('<img id="overview_swedish" src="overview_swedish.jpg">');
 
 $("body").append($overview);
+$("body").append($swedishOverview);
 
 
 $("p.showbadbars").click(function() {
@@ -42,9 +44,24 @@ $overview.show();
 });
 //Function for what happens when user clicks on one of the good words
 
+$("p.comparegoodSwedish").click(function() {
+$swedishOverview.css("margin-top", "0px");
+$swedishOverview.show();
+});
+
+$("p.compareSwedish").click(function() {
+$swedishOverview.css("margin-top", "2700px");
+$swedishOverview.show();
+});
+
 $overview.click(function(){
 $overview.hide();
 });
+
+$swedishOverview.click(function(){
+$swedishOverview.hide();
+});
+
 
 $("p.goodword").click(function() {
 //Show explanation text in overlay
